@@ -27,4 +27,4 @@ git merge scalanie
 git merge --abort przerwanie scalenia
 touch .gitignore tworzy liste wyjatkow
 rm nazwa usuwa plik/katalog
-
+git pull
