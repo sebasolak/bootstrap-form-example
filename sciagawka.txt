@@ -1,0 +1,30 @@
+ls listowanie
+clear czyszczenie
+cd Desktop wchodzi do katlogu
+cd .. wychodzi do gory z tatalogu
+mkdir nazwa tworzy katalog
+cd nazwa wchodzi do katalogu
+ls -a listuje ukryte pliki
+git init inicjalizuje gita w danym katalogu
+$ git config --global user.name "Imie Nazwisko" nadajemy imie i nazwisko
+git config --global user.email email.nazwa.pl nadajemy adress email
+git status wyswietla sytuacje w naszym gicie
+touch nazwa.txt tworzy plik tekstowy
+nano nazwa.txt edytujemy
+git add nazwa.txt zatwierdzamy zmiany
+git commit -m 'nazwa' kommituje
+git diff mowi jakie zmiany zaszly w pliku
+git checkout -- main.txt wycofuje zmiany
+git commit --amend zmienia komentarz w ostatnim komicie
+git log informacja o komicie
+git reset HEAD nazwa.txt cofa akceptacje 
+git stash schowek
+git checkout -b nazwa tworzymmy nowy brancz
+git stash pop wyrzuca ze schowka na nowy branch
+git checkout nazwa zmiana brancha
+
+git merge scalanie
+git merge --abort przerwanie scalenia
+touch .gitignore tworzy liste wyjatkow
+rm nazwa usuwa plik/katalog
+
